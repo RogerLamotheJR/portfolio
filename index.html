@@ -7,9 +7,10 @@
   <title>CSS Stylesheets with Relative Paths</title>
 
   
-  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules.
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
 </head>
 
@@ -34,23 +35,79 @@
     </li>
     
   </ul>
-
-  <div class="container-lg">
-  
-    <section id="main-bio">
-      <h2><About-Me</h2>
-      <img id="bio-image" style="width: 25rem;" src="images/IMG_0188 (1).jpeg" alt="Roger Lamothe">
-      
-      <p>My academic training in conjunction with 15 years of hospital experience, 
-        has made me very detail oriented, and a problem solver with excellent communication 
-        abilities.  Ensuring thorough documentation of candidate information-including skill fit, compensation expectations, availability, and technical proficiencies- within candidate tracking system.I am versatile in various operating systems. 
-        I’m proficient in Microsoft Office and ability to collaborate with all levels of management 
-        and strong attention to detail, organizational, interpersonal and communication skills<a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_top_card%3BUFciwvfFS6OQ6zABux1ogg%3D%3D">www.linkin.com</a></p>. Also, my family and I organize a summer basketball camp every year.<a href="https://www.youtube.com/watch?v=WBv8vtFTpJo
-        ">www.JJHoops4Haiti</a></p>
-        
-    </section>
-
+<!-- About Me section -->
+<div class="container">
+  <div class="section">
+    <div class="row">
+      <div class="col s12 center">
+        <h3><i class="mdi-content-send brown-text"></i></h3>
+        <h3>About Me</h3>
+        <h5>
+          <p class="left-align light">My academic training in conjunction with 15 years of hospital experience, 
+            has made me very detail oriented, and a problem solver with excellent communication 
+            abilities.  Ensuring thorough documentation of candidate information-including skill fit, compensation expectations, availability, and technical proficiencies- within candidate tracking system.I am versatile in various operating systems. 
+            I’m proficient in Microsoft Office and ability to collaborate with all levels of management 
+            and strong attention to detail, organizational, interpersonal and communication skills</p>
+        </h5>
+      </div>
+    </div>
   </div>
+</div>
+  
+<!-- Projects ------------------>
+<div class="container">
+  <div class="section">
+<div class="row">
+  <!-- card reveal to clean up the UI/UX-->
+  <div class="col s3 m3 l3">
+    <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="images/password.png" alt= "password">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4">Password-Generator<i class="material-icons right">more_vert</i></span>
+        <p><a href="https://rogerlamothejr.github.io/Password-Generator/" target="_blank">Link to website</a></p>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Project Description<i class="material-icons right">close</i></span>
+        <p>Password-Generator</p>
+      </div>
+    </div>
+  </div>
+  <div class="col s3 m3 l3">
+    <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="images/Weather.png" alt="image of a planner page w/weather, fun quotes and gifs">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4">Weather Dashboard<i class="material-icons right">more_vert</i></span>
+        <p><a href="https://rogerlamothejr.github.io/WeatherDashboard/" target="_blank">Link to website</a></p>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Weather Dashboard<i class="material-icons right">close</i></span>
+        <p>Weather Dashboard</p>
+      </div>
+    </div>
+  </div>
+  <div class="col s3 m3 l3">
+    <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="images/README.png" alt="laeke mariam demessie articles">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4">Generator README.md<i class="material-icons right">more_vert</i></span>
+        <p><a href="https://rogerlamothejr.github.io/GoodREADME-Generator/" target="_blank">Link to website</a></p>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Generator README.md<i class="material-icons right">close</i></span>
+        <p>Generator README.md</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+  <script src="js/materialize.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
